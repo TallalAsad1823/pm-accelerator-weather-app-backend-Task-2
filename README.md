@@ -1,4 +1,4 @@
-# Aether Weather Backend
+# Aether Weather-App Backend
 
 
 Submitted by: Tallal Asad
