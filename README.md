@@ -52,7 +52,14 @@ uvicorn main:app --reload
 
 ---
 
-Server will start at: http://127.0.0.1:8000📖 API DocumentationOnce the server is running, access the interactive docs here:→ http://127.0.0.1:8000/docs📂 Project StructurePlaintextaether-weather-backend/
+Server will start at: http://127.0.0.1:8000📖 API DocumentationOnce the server is running, access the interactive docs here:→ http://127.0.0.1:8000/docs
+
+"Note: This backend is intended to be run locally. Please refer to the 'Quick Start' section to run it on your machine."
+
+---
+
+
+📂 Project StructurePlaintextaether-weather-backend/
 ├── main.py                 # FastAPI app entry point
 ├── database.py             # SQLite database logic
 ├── models.py               # Pydantic data models
