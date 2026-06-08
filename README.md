@@ -24,12 +24,17 @@ aether-weather-backend/
 ├── .env               # Environment variables
 ├── requirements.txt   # Dependencies
 └── aether_weather.db  # Local SQLite database (auto-generated)
+
+--- 
+
 🚀 How to Run
 1. Prerequisites
 Ensure you have Python 3.14+ installed.
 
 2. Setup
 Clone the repository and navigate to the project folder.
+
+---
 
 Create and activate a virtual environment:
 
@@ -49,12 +54,18 @@ pip install -r requirements.txt
 3. Start the Server
 Bash
 uvicorn main:app --reload
-The server will start at http://127.0.0.1:8000.
+The server will start at (http://127.0.0.1:8000).
+
+---
+
 
 📖 API Documentation
 Once the server is running, you can access the interactive API documentation to test all endpoints (POST, GET, PUT, DELETE, EXPORT):
 
-URL: http://127.0.0.1:8000/docs
+URL: (http://127.0.0.1:8000/docs)
+
+---
+
 
 📋 Assessment Requirements Checklist
 [x] CREATE: Save weather searches with date ranges.
@@ -68,6 +79,8 @@ URL: http://127.0.0.1:8000/docs
 [x] EXPORT: Download data as JSON or CSV via /api/export.
 
 [x] VALIDATIONS: Date range and existence checks implemented.
+
+---
 
 Made for PM Accelerator Technical Assessment #1 -TASK 2 -BACKEND
 Submitted by: Tallal Asad
